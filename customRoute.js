@@ -24,7 +24,7 @@ module.exports = (req, res) => {
     // console.log(req);
     res.writeHeader(200, {"Content-Type": "text/html"});  
     res.end(`
-        <h2>Go to <a href="/aCustomRoute/${jsonToQueryString(query)}">Test Custom Route</a></h2>
+        <h2>Go to <a href="/${jsonToQueryString(query)}">Test Lambda Entry Point</a></h2>
         <div>
             <h3>Query</h3>
             <pre>${JSON.stringify(query)}</pre>

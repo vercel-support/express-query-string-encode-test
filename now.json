@@ -1,1 +1,11 @@
-{"version":2,"name":"express-query-string-encode-test","builds":[{"src":"**/*.js","use":"@now/node"}]}
+{
+  "version":2,
+  "name":"express-query-string-encode-test",
+  "builds":[
+    {"src":"**/*.js","use":"@now/node"}
+  ],
+  "routes": [
+    {"src": "/aCustomRoute/", "dest": "/customRoute.js"},
+    {"src": "/aCustomRoute", "dest": "/customRoute.js"}
+  ]
+}
