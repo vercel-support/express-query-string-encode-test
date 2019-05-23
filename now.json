@@ -1,0 +1,1 @@
+{"version":2,"name":"express-query-string-encode-test","builds":[{"src":"**/*.js","use":"@now/node"}]}
